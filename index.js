@@ -24,7 +24,7 @@ const fs = require('fs');
     const INIT_TIME = 60000; // 60 sec
     const CATEGORY_BASE = 'http://localhost:4201/';
 
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
     const page = await browser.newPage();
 
     console.log(' Initing ...., waiting chrome getting ready ')
