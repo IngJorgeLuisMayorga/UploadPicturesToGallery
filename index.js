@@ -18,7 +18,7 @@ const fs = require('fs');
     'catalog/santé-et-bien-être', 
     'catalog'];
 
-    const categories = CATEGORIES_LOCAL;
+    const categories = CATEGORIES_AWS_JLMAYORGACO;
 
 
     const INIT_TIME = 60000; // 60 sec
