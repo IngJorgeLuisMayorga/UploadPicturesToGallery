@@ -56,6 +56,8 @@ const fs = require('fs');
         const no_pit = parseInt(N/3, 10);
         const no_qso = parseInt(2*N/3, 10);
 
+        console.log( ' QSO, N0 : 2N/3')
+
         for(let s = no_qso; s < N ; s++){
             const sku = skus[s];
             let imprints = [];
