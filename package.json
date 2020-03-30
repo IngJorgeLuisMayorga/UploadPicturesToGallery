@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "form-data": "^3.0.0",
     "image-downloader": "^3.5.0",
+    "jimp": "^0.10.0",
     "mongodb": "^3.5.3",
     "node-fetch": "^2.6.0",
     "request": "^2.88.2",
