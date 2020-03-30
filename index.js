@@ -53,10 +53,10 @@ const fs = require('fs');
 
         // For Each Pages SKUS
         const N = skus.length;
-        const no_pit = parse(N/3, 10);
-        const no_qso = parse(2*N/3, 10);
+        const no_pit = parseInt(N/3, 10);
+        const no_qso = parseInt(2*N/3, 10);
 
-        for(let s = no_qso; s < N ; s++){
+        for(let s = no_pit; s < N ; s++){
             const sku = skus[s];
             let imprints = [];
             try{
