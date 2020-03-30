@@ -41,7 +41,7 @@ fs.readdir(directoryPath, async function (err, files) {
         const file = files[k];
         if(file.includes('png')){
             try{
-            const isUpload = await upload("compressed" + file);
+            const isUpload = await upload("compressed/" + file);
             console.log(' PROCESSING .... ' + (100*(k)/(fileLength)))
             }catch(error){
                 console.log('[ERROR] ')
