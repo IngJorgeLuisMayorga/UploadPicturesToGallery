@@ -18,7 +18,7 @@ const fs = require('fs');
     'catalog'];
 
         // For Each Category
-        const category = 'secuirte';
+        const category = 'hauts';
         console.log(' ');
         console.log('CATEGORY => '+category);
         console.log(' ');
