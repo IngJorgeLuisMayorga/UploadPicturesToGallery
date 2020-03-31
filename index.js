@@ -73,8 +73,10 @@ const fs = require('fs');
                 
                     try{
                         const filename = await downloadFile(imprints[i].image);
-                        const compress = await compressFile(filename);
-                        const upload = await uploadFile(filename);
+                        if(filename){
+                            const compress = await compressFile(filename);
+                            const upload = await uploadFile(filename);
+                        }
 
                     } catch( error ){
                             console.error({error})
