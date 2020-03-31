@@ -56,7 +56,7 @@ const fs = require('fs');
         const no_pit = parseInt(N/3, 10);
         const no_qso = parseInt(2*N/3, 10);
 
-        console.log( ' 1722, N0 : 2N/3')
+        console.log( ' 2069, N0 : 2N/3')
 
         //80 - 100
         for(let s =  2069; s < N ; s++){
