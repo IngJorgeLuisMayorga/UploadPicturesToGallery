@@ -59,7 +59,7 @@ const fs = require('fs');
         console.log( ' 1722 , N0 : 2N/3')
 
         //80 - 100
-        for(let s =  600; s < N ; s++){
+        for(let s =  914; s < N ; s++){
             const sku = skus[s];
             let imprints = [];
             try{
